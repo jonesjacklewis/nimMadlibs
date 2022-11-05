@@ -18,4 +18,6 @@ for i in countup(0, words.len - 1):
 
 
 let newContents = story.join(" ")
+
+writeFile("storyFilled.txt", newContents)
 echo newContents
