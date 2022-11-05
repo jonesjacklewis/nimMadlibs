@@ -16,4 +16,6 @@ for i in countup(0, words.len - 1):
         word = readLine(stdin)
     story[i] = word
 
-echo story
+
+let newContents = story.join(" ")
+echo newContents
