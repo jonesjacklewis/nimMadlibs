@@ -1,3 +1,7 @@
+import std/strutils
+
 let fileContents = readFile("story.txt")
 
-echo fileContents
+let words = fileContents.split(" ")
+
+echo words
